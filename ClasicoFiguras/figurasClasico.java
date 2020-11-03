@@ -78,7 +78,7 @@ class figurasClasico{
 
                 System.out.println("El area del circulo es de: "+resultado);
                 break;
-
+            
             default:
                 System.out.println("Gracias por participar unu nwn/ ");
         

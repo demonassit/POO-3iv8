@@ -85,7 +85,8 @@ public class metodinNum{
                 break;
             case 3:
                 metodo3;
-                conversiondetemp(double temp)
+                double temp;
+                conversiondetemp(temp)
                 break
 
             }

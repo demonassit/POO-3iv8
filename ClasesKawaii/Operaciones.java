@@ -131,6 +131,49 @@ public class Operaciones{
 
         //este lo hago yo alratito ono
         //otro cambio wiiiiii
+
+
+        int n, m = 0;
+
+        //vamos a crear un cuadro magico de *
+
+        do{
+
+            System.out.println("Ingresa el numero de * que tenga el cuadro magico");
+            n = entrada.nextInt();
+
+            //vamos a tener un maximo de *
+
+            if((n<0) || (n>1000)){
+                System.out.println("No se aceptan negativos, ni valores superiores a 1000");
+            }else{
+                    //la base 
+                for(int i=0; i<=n; i++){
+                    System.out.print("*");
+                }
+                //salto de linea \n
+                System.out.println("\n");
+                    //se encarga de la altura
+                    for(int i = -2; i<n-3; i++){
+
+                        System.out.print("&");
+                        System.out.print("    -   -    ");
+                        //este se encarga de los espacios de adentro del cuadrado
+                        for(int j = 0; j<n-1; j++){
+
+                            System.out.print(" ");
+                        }
+                        System.out.println("/");
+                        
+                        
+                    }
+                    for(int k = 0; k<=n; k++){
+
+                        System.out.print("*");
+                    }
+            }
+            System.out.println("\n");
+        }while(m!=1);
     }
 
     public void MoviCuadro(){

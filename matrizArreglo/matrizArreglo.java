@@ -24,8 +24,12 @@ public class matrizArreglo{
         for(int i=0; i<matriz.length; i++){
             //columnas
             for(int j=0; j<matriz.length; j++){
+                System.out.println("uwu");
+                
                 System.out.println("Ingresa el numero de la fila "
                 + i + " columna " + j + " : ");
+                System.out.println("uwu");
+                System.out.println(matriz);
                 matriz[i][j] = entrada.nextInt();
 
                 //no tiene formato

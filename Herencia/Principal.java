@@ -14,8 +14,24 @@ public class Principal{
 
         Perro dog = new Perro("Teddy", "Callejero", "Croquetas", 2, "fuerte");
         Gato cat = new Gato("Miau", "Hogareño", "atun", 1, 7);
+        /*
+        Perro dog = new Perro();
 
-        //dog.setNombre(variable);
+        String nom, raza, tipal, ladr;
+        int edad, numvida;
+
+        System(ingresa el nombre)
+        nom = entrada.nextLine()
+
+
+        quiero dominar el mundo *w*
+
+        y agreguen la clase perico, tortuga, hamster 
+        
+        
+        */
+        //dog.setNombre(nom);
+        //cat.setNombre(nom);
 
         //los metodos
         dog.mostrarPerro();

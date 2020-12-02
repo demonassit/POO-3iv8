@@ -9,6 +9,9 @@ class Principal{
         //fun.cadenas();
 
         cadenaInvertida inver = new cadenaInvertida();
-        inver.cadenaInvertida();
+        //inver.cadenaInvertida();
+
+        cadenaFunciones cadfun = new cadenaFunciones();
+        cadfun.masFuncionesCadena();
     }
 }

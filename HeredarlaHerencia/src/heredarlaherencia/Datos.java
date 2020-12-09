@@ -56,6 +56,10 @@ public class Datos {
         obj[x] = new Estudiante(numbol, nombre, edad, genero);
         x++;
         
+        Estudiante es = new Estudiante();
+        
+        
+        
         
         
     }
